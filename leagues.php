@@ -70,7 +70,7 @@
 
     }
 
-    //store the new array by the id value
+    //sort the new array by the id value
     $keys = array_column($leagues, 'id');
     array_multisort($keys, SORT_ASC, $leagues);
 
